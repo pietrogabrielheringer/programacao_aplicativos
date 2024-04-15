@@ -1,0 +1,32 @@
+body{
+    background-color: #fff396;
+}
+h2{
+    color:#d10dba; 
+}
+
+.vermelho{
+    color:#f7050d; 
+}
+
+.verde{
+    color:#05f71d; 
+}
+
+.azul{
+    color:#41aafa;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.rosa{
+    background-color: #d10dba;
+}
+
+.saudacao{
+    color: red;
+    text-align: center;
+}
