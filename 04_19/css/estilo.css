@@ -1,0 +1,95 @@
+/* Padronização carregamento */
+
+*{
+    padding: 0; 
+    margin: 0;
+    outline: 0;
+
+}
+
+body{
+    background-color: rgb(255, 138, 210);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#azul{
+    color: rgb(0, 217, 255);
+}
+
+#navegacao{
+    background-color: white;
+    border-bottom: 3px solid #bdbdbd;
+    height: 45px;
+}
+
+/*Configurando cabeçalho*/
+#area_menu{
+    width: 720px;
+    margin: 0 auto;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    float: right;
+    padding: 10px 0;
+}
+
+/*Formatando os links do menu*/
+
+#menu a:visited{
+    color: black;
+}
+
+#menu a:link{
+    color: black;
+}
+
+#menu a{
+    text-decoration: nome;
+    padding: 5px;
+}
+
+#menu a:hover{
+    color: white;
+    background-color: rgb(255, 12, 109);
+}
+
+/* Área de postagem de postagem*/
+#area-principal{
+    width: 720px;
+    margin: 50px auto 20px auto;
+}
+
+#postagem{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+h2{
+    color: black;
+}
+
+.data_postagem{
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.img-postagem{
+    max-width: 100%;
+    border-radius: 25px;
+}
+
+.postado{
+    border-top: 1px solid black;
+    padding-left: 1px;
+    display: block;
+    margin-top: 15px;
+    padding-top: 10px;
+}
