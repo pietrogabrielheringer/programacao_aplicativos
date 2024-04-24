@@ -1,0 +1,92 @@
+.exemplo_background{
+    /*Endereço de imagem*/
+    background-image: url("../img/pietroimagem.png");
+    /*Colocando imagem para repetir horizontal*/
+    /*background-repeat: repeat-x;*/
+    /*Colocando imagem para repetir vertical*/
+    /*background-repeat: repeat-y;*/
+    /*Colocando imagem apenas uma vez*/
+    /*background-repeat: no-repeat;*/
+    /*Colocando imagem no centro*/
+    /*background-position: center top;*/
+    /*Tornando background fixo*/
+    /*Backgroun-attachment: fixed;*/
+    /*background-attachment: scroll;*/
+    /*background pode receber todos os parâmetros*/
+    background: rgb(145, 145, 145) url(../img/pietroimagem.png) no-repeat center top fixed;
+
+}
+
+/*Borda pontilhada*/
+.pontilhado{
+    border-style: dotted;
+}
+
+/*Borda tracejada*/
+.tracejado{
+    border-style: dashed;
+}
+
+/*Selecionando espessura*/
+.borda_maior{
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*Borda lado específico*/
+.borda_topo{
+    border-top: 2px solid rgb(144, 200, 50);
+}
+
+.principal{
+    background-color: rgb(144, 200, 50);
+    height: 800px;
+}
+
+.conteudo{
+    background-color: pink;
+    /*Colocando margem em um lado*/
+    /*margin-left: 80px;*/
+    /*Colocando margem em cima e em baixo depois a direita e esquerda*/
+    /*margin: 80px 20px; (80 é em cima e em baixo e 20 é direita e esquerda)*/
+    /*Criando margem nos quatro cantos*/
+    /*margin: 20px 40px 60px 80px;*/
+    height: 300px;
+    width: 400px;
+    /*Colocando padding de um lado*/
+    /*padding-top: 50px;*/
+    /*padding: 80px 20px;*/
+    padding: 20px 40px 60px 80px;
+}
+
+/*Começa sem ser exibido*/
+.conteudo_dropdown{
+    display: none;
+    background-color:gray ;
+    width: 100px;
+    color: white;
+}
+
+/*Coloca uma linha nos itens da lista e remove o estilo lista*/
+.conteudo_dropdown li{
+    border-bottom: 1px solid white;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+/*Deixa mais escuro o item selecionado*/
+.conteudo_dropdown li:hover{
+    background-color: rgb(80, 80, 80);
+
+}
+
+/*Remove o padding do ul qeu vem por padrão */
+.conteudo_dropdown ul{
+    padding: 0;
+}
+
+/*Exibe menu com display blcock*/
+.dropdown:hover .conteudo_dropdown{
+    display: block;
+}
+
