@@ -1,0 +1,33 @@
+#alerta{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+}
+
+.ceuLimpo{
+    background-color: rgb(117, 223, 255);
+    font-size: 20px;
+}
+
+.nublado{
+    background-color: rgb(117, 131, 138);
+    color: white;
+}
+
+#cores{
+    height: 300px;
+    width: 300px;
+}
+
+.verde{
+    background-color: green;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
