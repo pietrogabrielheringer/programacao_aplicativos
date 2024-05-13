@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Crie um array com o nome do município de cada aluno
+        // Crie uma tabela e com laço de repetição preencha
+        let tabela = "<tr><th>Nome</th><th>Município</th></tr>"
+        let alunoCidade = [
+            ["Pietro Gabriel", "Vitória"], 
+            ["Isaac Lucca", "Vila Velha"], 
+            ["Samara", "Vila Velha"], 
+            ["Anna Julya", "Vitória"], 
+            ["Heloísa", "Vila Velha"], 
+            ["João Pedro", "Serra"], 
+            ["Amanda", "Serra"], 
+            ["Matheus", "Cariacica"],
+            ["Sarah", "Vila Velha"], 
+            ["Vitor", "Vitória"], 
+            ["Deivid", "Vila Velha"], 
+            ["Marco", "Vila Velha"], 
+            ["Aymar", "Vila Velha"], 
+            ["Daniel", "Serra"], 
+            ["Gabriel", "Serra"], 
+            ["Emanoel", "Vitória"]
+        ]
+
+        tabela +="<tr><td>"+alunoCidade[0][0]+"</td><td>"+alunoCidade[0][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[1][0]+"</td><td>"+alunoCidade[1][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[2][0]+"</td><td>"+alunoCidade[2][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[3][0]+"</td><td>"+alunoCidade[3][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[4][0]+"</td><td>"+alunoCidade[4][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[5][0]+"</td><td>"+alunoCidade[5][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[6][0]+"</td><td>"+alunoCidade[6][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[7][0]+"</td><td>"+alunoCidade[7][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[8][0]+"</td><td>"+alunoCidade[8][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[9][0]+"</td><td>"+alunoCidade[9][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[10][0]+"</td><td>"+alunoCidade[10][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[11][0]+"</td><td>"+alunoCidade[11][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[12][0]+"</td><td>"+alunoCidade[12][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[13][0]+"</td><td>"+alunoCidade[13][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[14][0]+"</td><td>"+alunoCidade[14][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[15][0]+"</td><td>"+alunoCidade[15][1]+"</td></tr>"
+        tabela +="<tr><td>"+alunoCidade[16][0]+"</td><td>"+alunoCidade[16][1]+"</td></tr>"
+
+
+    </script>
+</head>
+<body>
+    <table id="alunoCidade">
+    </table>
+    <script>
+         document.getElementById("alunoCidade").innerHTML = tabela
+    </script>
+    
+</body>
+</html>
