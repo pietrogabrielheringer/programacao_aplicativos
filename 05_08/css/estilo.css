@@ -1,37 +1,58 @@
-#alerta{
+#alerta {
     background-color: red;
     color: white;
     font-size: 20px;
     border-radius: 15px;
 }
 
-.ceuLimpo{
+.ceuLimpo {
     background-color: rgb(117, 223, 255);
     font-size: 20px;
 }
 
-.nublado{
+.nublado {
     background-color: rgb(117, 131, 138);
     color: white;
 }
 
-#cores{
+#cores {
     height: 300px;
     width: 300px;
 }
 
-.verde{
+.verde {
     background-color: green;
 }
 
-.vermelho{
+.vermelho {
     background-color: red;
 }
 
-.azul{
+.azul {
     background-color: blue;
 }
 
-#listaCarros th, td{
+#listaCarros th,
+td {
     border: 1px solid black;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#titulo {
+    text-align: center;
+}
+
+tr th{
+    background-color: pink;
+}
+
+tr:nth-last-child(even){
+    background-color: aqua;
+}
+
+button {
+    background-color: rgb(248, 174, 255);
 }
